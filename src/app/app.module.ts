@@ -8,6 +8,7 @@ import { ServersComponent } from './servers/servers.component';
 import { TugasComponent } from './tugas/tugas.component';
 import { Tugas03Component } from './tugas03/tugas03.component';
 import { PegawaiComponent } from './pegawai/pegawai.component';
+import { Kuis1Component } from './kuis1/kuis1.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PegawaiComponent } from './pegawai/pegawai.component';
     ServersComponent,
     TugasComponent,
     Tugas03Component,
-    PegawaiComponent
+    PegawaiComponent,
+    Kuis1Component
   ],
   imports: [
     BrowserModule,
